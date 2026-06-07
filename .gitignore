@@ -1,0 +1,27 @@
+# Gradle caches and build output
+.gradle/
+build/
+out/
+
+# Fabric/Minecraft local run directory
+run/
+
+# Generated logs and crash reports
+logs/
+crash-reports/
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE/editor local files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini

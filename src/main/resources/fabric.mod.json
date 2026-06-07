@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "clientui",
+	"version": "${version}",
+	"name": "Client UI Base",
+	"description": "Simple client ClickGUI and HUD editor base.",
+	"authors": [
+		"jamie.local"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.james.blockclickgui.BlockClickGuiClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.11",
+		"fabric-api": "*"
+	}
+}
